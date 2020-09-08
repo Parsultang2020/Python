@@ -38,7 +38,7 @@ print(list(str))
 print("6. Самый часто повторяющийся элемент в списке")
 numbers = [1,1,1,1,2,2,2,3,3,3,3,3,3,3,3,4,7,4,4,4,4,5,5,5,5,6,6,6]
 print(numbers)
-def most_common(list1):
+def most_common(list1:
     data = Counter(list1)
     return data.most_common(1)[0][0]
 print(most_common(numbers))
